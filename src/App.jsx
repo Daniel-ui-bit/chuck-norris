@@ -18,7 +18,7 @@ function App() {
             count is {count}
           </button>
 
-          <Button text="Carica il joke" />
+          <Button text="Carica battuta" />
           <Button text="Copia" />
       </div>
    </div>
