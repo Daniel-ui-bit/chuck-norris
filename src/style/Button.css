@@ -6,4 +6,13 @@
     background-color: #780116;
     border-radius: 10px;
     margin: 10px 0;
-}
+    
+    /*Testo*/
+    font-family: 'Concert One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}   
+
