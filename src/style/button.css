@@ -1,0 +1,9 @@
+.Button{
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    line-height: 35px;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 10px 0;
+}
