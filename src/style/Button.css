@@ -16,3 +16,10 @@
     color: #FFFFFF;
 }   
 
+.Button.disabled{
+    background-color: #780116; opacity: 0.6;
+}
+
+.Button:hover{
+    background-color: #b9304a;
+}

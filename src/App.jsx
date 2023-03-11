@@ -6,8 +6,16 @@ import Button from './components/button'
 
 function App() {
   const [count, setCount] = useState(0)
-
   const [joke, setJoke] = useState("")
+
+  let loadJokeCallback = function(){
+    console.log("ciao")
+    setJoke("testo")
+  }
+
+  let copyTextCallback = function(){
+    console.log("bye")
+  }
 
   return (
    <div className='App'>
@@ -16,10 +24,10 @@ function App() {
       <div id='contenutoJoke'>
           <button onClick={() => setCount((count) => count+1)}>
             count is {count}
-          </button>
+        </button>
 
-          <Button text="Carica battuta" />
-          <Button text="Copia" />
+          <Button text="Carica battuta" callback={loadJokeCallback} />
+          <Button text="Copia" variant={ joke === "" ? "disabled":undefined} callback={copyTextCallback} />
       </div>
    </div>
   )
