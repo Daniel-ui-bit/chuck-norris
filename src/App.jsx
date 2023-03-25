@@ -10,6 +10,7 @@ function App() {
   const [joke, setJoke] = useState("")
 
   let loadJokeCallback = function(){
+    
     let cat = document.getElementById("JokeType").value
     let url2 = "https://api.chucknorris.io/jokes/random" + (cat!=="random" ? "?category=" + cat : "")
     
