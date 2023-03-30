@@ -1,3 +1,21 @@
-.Dropdown{
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+select{
+    /* text */
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    font-family: 'Concert One', cursive;
+    font-style: normal;
+
+    /* box */
+    margin-bottom: 10px;
+    width: 364px;
+    height: 28px;
+
+    background: #FFFFFF;
     border-radius: 10px;
+    color: black;
+    border: 0px;
 }
+

@@ -1,14 +1,16 @@
 .Button{
-    display: block;
+    /* box */
+    display: flex;
     height: 48px;
     width: 364px;
     align-items: center;
+    justify-content: center;
 
     background-color: #780116;
     border-radius: 10px;
     margin: 10px 0;
     
-    /*Testo*/
+    /* text */
     font-family: 'Concert One';
     font-style: normal;
     font-weight: 400;
@@ -17,10 +19,23 @@
     color: #FFFFFF;
 }   
 
-.Button.disabled{
-    background-color: #780116; opacity: 0.6;
+.Button.c{
+    /* box */
+    height: 33px;
+    width: 185px;
+
+
+    background: rgba(216, 88, 42, 0.979);
+    border-radius: 10px;
 }
 
+.Button.c.disabled{
+    /* box */
+    background: rgba(216, 88, 42, 0.527);
+}
+
+
 .Button:hover{
+     /* box */
     background-color: #b9304a;
 }

@@ -1,6 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  
+  max-width: 1280px;
+  padding: 2rem;
+}
+
+.flex{
+    /* box for div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

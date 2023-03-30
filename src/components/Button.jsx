@@ -8,7 +8,7 @@ function Button({ text, variant, callback }){
 
     let clickHandler = function(e){
         console.log(e)
-        if(variant !="disabled")
+        if(variant !="c disabled")
         {
             callback()
         }
@@ -16,6 +16,10 @@ function Button({ text, variant, callback }){
 
 
     let classRenderer = function(){
+        if(variant != "o" && variant != "c disabled")
+        {
+            variant = "c"
+        }else if(variant == "0"){ variant = ""}
         let classes = [
           'Button', variant
         ]

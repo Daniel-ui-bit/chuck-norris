@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.Textarea{
+    /* box */ 
+    max-width: 364px;
+    height: 113px;
+    width: 100%;
+    margin-bottom: 5px;
+
+    background: #E1E1E1;
+    border-radius: 20px;
+
+    /* text */
+    font-family: 'Concert One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    line-height: 120%;
+
+    text-align: center;
+    text-transform: lowercase;
+    }
